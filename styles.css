@@ -154,7 +154,7 @@ p, h2{
         height: auto; 
        /* padding-left: 20px; */
         object-fit: contain;
-        padding-left: 60px; 
+        padding-left: 70px; 
         padding-right: 60px; 
         margin-top: 10px;
     }
@@ -173,6 +173,6 @@ p, h2{
         padding-left: 20px; 
     }
     .container{
-        padding-inline-start: 50px;
+        padding-inline-start: 60px;
     }
 }
