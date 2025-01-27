@@ -50,17 +50,17 @@ img{
     .seraphis{
         height: 400px; 
         width: 200px;
-        padding-left: 70px;  
+        padding-left: 80px;  
     }
     .mushak{
         height: 300px; 
         width: 300px; 
-        padding-left: 27px; 
+        padding-left: 37px; 
     }
     .forensics{
         height: 200px; 
         width: 320px; 
-        padding-left: 18px; 
+        padding-left: 28px; 
     }
     .images{
         margin-left: 0;
@@ -68,6 +68,6 @@ img{
     .grad{
         height: 300px; 
         width: 200px;
-        padding-left: 70px;  
+        padding-left: 80px;  
     }
 }
