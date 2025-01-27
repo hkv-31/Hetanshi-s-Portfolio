@@ -1,0 +1,178 @@
+/* Fonts */
+.pirata-one-regular {
+    font-family: "Pirata One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }    
+.inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style:normal;
+}
+.fugaz-one-regular {
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+/*Styling */ 
+body{
+    /*background-image:url('background1.jpg'); */ 
+    opacity: 1.2;
+    background-color: rgb(177, 158, 133);
+}
+h1{
+    font-family: "Pirata One", serif;
+    font-size:5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    color: #0a1f3f; 
+    text-align: center;
+    /*-webkit-text-stroke: 0.001px white;*/
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+h2{
+    font-family: "Inknut Antiqua", serif;
+    color: #0a1f3f;
+    font-size: 1em; 
+}
+.info{
+    font-family: "Original Surfer", serif;
+    color: #0a1f3f; 
+    text-align: left;
+    font-size:1.5em; 
+    padding-left: 50px; 
+    display: inline; 
+}
+/*creating grid layout
+.container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 200px 250px;
+    gap: 30px; 
+}
+.first{
+    grid-column: span 2;
+}
+    
+.grid{
+    padding-left: 20px; 
+    margin: 5px; 
+}
+    */ 
+a{
+    color: #0a1f3f; 
+}
+span{
+    font-weight: bold;
+    /*font-size: 1.2em;*/ 
+}
+/* Adding image for each section*/ 
+.block{
+    width: 200px; 
+    height: 200px; 
+   /* opacity: 0.4;*/
+   /*border-color: #0a1f3f; 
+    border-style:solid; */
+    border-radius:50px ;
+    margin:20px; 
+}
+.grid{
+    position: relative;
+    text-align:justify;
+    display: inline-block; }
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding-bottom: 5px;
+    -webkit-text-stroke: 0.5px #0a1f3f;
+    /*background-color: ;*/
+}
+.container{ 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+/*opacity */
+.purple{
+    opacity: 0.6; 
+    /*border:solid #0a1f3f; */ 
+}
+/* add border to text- make text white, and add dark blue border*/ 
+.me{
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+}
+.me, .empty, .info{
+    display: inline-block; 
+}
+.empty{
+    width: 200px; 
+    height: 300px; 
+}
+.info{
+    height: 300px; 
+}
+p, h2{
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+.name{
+    font-size: 1.7em;
+}
+.contact{
+    height: 100px; 
+    width: 100px; 
+    margin: 20px; 
+}
+.details{
+    /*align-content: center;*/ 
+    padding-left: 450px;
+}
+/*Responsive Website*/ 
+@media (max-width:680px){
+    h1{
+        font-size: 3em;  
+    }
+    .name{
+        font-size: 1.3em; 
+    }
+    .info{
+        font-size: 1.2em;
+        padding-left: 20px; 
+        height: auto; 
+    }
+    .me{
+        width: 200px; 
+        height: auto; 
+       /* padding-left: 20px; */
+        object-fit: contain;
+        padding-left: 60px; 
+        padding-right: 60px; 
+        margin-top: 10px;
+    }
+    .empty{
+        width: 0; 
+        height: 0; 
+    }
+    .none{
+        display:none; 
+    }
+    .contact{
+        height: 60px; 
+        width: 60px; 
+    }
+    .details{
+        padding-left: 20px; 
+    }
+    .container{
+        padding-inline-start: 50px;
+    }
+}
